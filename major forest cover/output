@@ -1,0 +1,308 @@
+     SAT   GPA
+0   1714  2.40
+1   1664  2.52
+2   1760  2.54
+3   1685  2.74
+4   1693  2.83
+5   1670  2.91
+6   1764  3.00
+7   1764  3.00
+8   1792  3.01
+9   1850  3.01
+10  1735  3.02
+11  1775  3.07
+12  1735  3.08
+13  1712  3.08
+14  1773  3.12
+15  1872  3.17
+16  1755  3.17
+17  1674  3.17
+18  1842  3.17
+19  1786  3.19
+20  1761  3.19
+21  1722  3.19
+22  1663  3.20
+23  1687  3.21
+24  1974  3.24
+25  1826  3.28
+26  1787  3.28
+27  1821  3.28
+28  2020  3.28
+29  1794  3.28
+..   ...   ...
+54  1879  3.44
+55  1887  3.47
+56  1730  3.47
+57  1953  3.47
+58  1781  3.47
+59  1891  3.48
+60  1964  3.49
+61  1808  3.49
+62  1893  3.50
+63  2041  3.51
+64  1893  3.51
+65  1832  3.52
+66  1850  3.52
+67  1934  3.54
+68  1861  3.58
+69  1931  3.58
+70  1933  3.59
+71  1778  3.59
+72  1975  3.60
+73  1934  3.60
+74  2021  3.61
+75  2015  3.62
+76  1997  3.64
+77  2020  3.65
+78  1843  3.71
+79  1936  3.71
+80  1810  3.71
+81  1987  3.73
+82  1962  3.76
+83  2050  3.81
+
+[84 rows x 2 columns]
+     SAT   GPA
+0   1714  2.40
+1   1664  2.52
+2   1760  2.54
+3   1685  2.74
+4   1693  2.83
+5   1670  2.91
+6   1764  3.00
+7   1764  3.00
+8   1792  3.01
+9   1850  3.01
+10  1735  3.02
+11  1775  3.07
+12  1735  3.08
+13  1712  3.08
+14  1773  3.12
+15  1872  3.17
+16  1755  3.17
+17  1674  3.17
+18  1842  3.17
+19  1786  3.19
+20  1761  3.19
+21  1722  3.19
+22  1663  3.20
+23  1687  3.21
+24  1974  3.24
+25  1826  3.28
+26  1787  3.28
+27  1821  3.28
+28  2020  3.28
+29  1794  3.28
+..   ...   ...
+54  1879  3.44
+55  1887  3.47
+56  1730  3.47
+57  1953  3.47
+58  1781  3.47
+59  1891  3.48
+60  1964  3.49
+61  1808  3.49
+62  1893  3.50
+63  2041  3.51
+64  1893  3.51
+65  1832  3.52
+66  1850  3.52
+67  1934  3.54
+68  1861  3.58
+69  1931  3.58
+70  1933  3.59
+71  1778  3.59
+72  1975  3.60
+73  1934  3.60
+74  2021  3.61
+75  2015  3.62
+76  1997  3.64
+77  2020  3.65
+78  1843  3.71
+79  1936  3.71
+80  1810  3.71
+81  1987  3.73
+82  1962  3.76
+83  2050  3.81
+
+[84 rows x 2 columns]
+               SAT        GPA
+count    84.000000  84.000000
+mean   1845.273810   3.330238
+std     104.530661   0.271617
+min    1634.000000   2.400000
+25%    1772.000000   3.190000
+50%    1846.000000   3.380000
+75%    1934.000000   3.502500
+max    2050.000000   3.810000
+<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x000002BE0305EE48>
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    GPA   R-squared:                       0.406
+Model:                            OLS   Adj. R-squared:                  0.399
+Method:                 Least Squares   F-statistic:                     56.05
+Date:                Mon, 25 Nov 2019   Prob (F-statistic):           7.20e-11
+Time:                        19:24:19   Log-Likelihood:                 12.672
+No. Observations:                  84   AIC:                            -21.34
+Df Residuals:                      82   BIC:                            -16.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.2750      0.409      0.673      0.503      -0.538       1.088
+SAT            0.0017      0.000      7.487      0.000       0.001       0.002
+==============================================================================
+Omnibus:                       12.839   Durbin-Watson:                   0.950
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               16.155
+Skew:                          -0.722   Prob(JB):                     0.000310
+Kurtosis:                       4.590   Cond. No.                     3.29e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.29e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    GPA   R-squared:                       0.406
+Model:                            OLS   Adj. R-squared:                  0.399
+Method:                 Least Squares   F-statistic:                     56.05
+Date:                Mon, 25 Nov 2019   Prob (F-statistic):           7.20e-11
+Time:                        19:25:11   Log-Likelihood:                 12.672
+No. Observations:                  84   AIC:                            -21.34
+Df Residuals:                      82   BIC:                            -16.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.2750      0.409      0.673      0.503      -0.538       1.088
+SAT            0.0017      0.000      7.487      0.000       0.001       0.002
+==============================================================================
+Omnibus:                       12.839   Durbin-Watson:                   0.950
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               16.155
+Skew:                          -0.722   Prob(JB):                     0.000310
+Kurtosis:                       4.590   Cond. No.                     3.29e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.29e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    GPA   R-squared:                       0.406
+Model:                            OLS   Adj. R-squared:                  0.399
+Method:                 Least Squares   F-statistic:                     56.05
+Date:                Mon, 25 Nov 2019   Prob (F-statistic):           7.20e-11
+Time:                        19:50:29   Log-Likelihood:                 12.672
+No. Observations:                  84   AIC:                            -21.34
+Df Residuals:                      82   BIC:                            -16.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.2750      0.409      0.673      0.503      -0.538       1.088
+SAT            0.0017      0.000      7.487      0.000       0.001       0.002
+==============================================================================
+Omnibus:                       12.839   Durbin-Watson:                   0.950
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               16.155
+Skew:                          -0.722   Prob(JB):                     0.000310
+Kurtosis:                       4.590   Cond. No.                     3.29e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.29e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x000002BE03087BA8>
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    GPA   R-squared:                       0.406
+Model:                            OLS   Adj. R-squared:                  0.399
+Method:                 Least Squares   F-statistic:                     56.05
+Date:                Mon, 25 Nov 2019   Prob (F-statistic):           7.20e-11
+Time:                        19:51:56   Log-Likelihood:                 12.672
+No. Observations:                  84   AIC:                            -21.34
+Df Residuals:                      82   BIC:                            -16.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.2750      0.409      0.673      0.503      -0.538       1.088
+SAT            0.0017      0.000      7.487      0.000       0.001       0.002
+==============================================================================
+Omnibus:                       12.839   Durbin-Watson:                   0.950
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               16.155
+Skew:                          -0.722   Prob(JB):                     0.000310
+Kurtosis:                       4.590   Cond. No.                     3.29e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.29e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    GPA   R-squared:                       0.406
+Model:                            OLS   Adj. R-squared:                  0.399
+Method:                 Least Squares   F-statistic:                     56.05
+Date:                Mon, 25 Nov 2019   Prob (F-statistic):           7.20e-11
+Time:                        20:06:42   Log-Likelihood:                 12.672
+No. Observations:                  84   AIC:                            -21.34
+Df Residuals:                      82   BIC:                            -16.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.2750      0.409      0.673      0.503      -0.538       1.088
+SAT            0.0017      0.000      7.487      0.000       0.001       0.002
+==============================================================================
+Omnibus:                       12.839   Durbin-Watson:                   0.950
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               16.155
+Skew:                          -0.722   Prob(JB):                     0.000310
+Kurtosis:                       4.590   Cond. No.                     3.29e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.29e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    GPA   R-squared:                       0.406
+Model:                            OLS   Adj. R-squared:                  0.399
+Method:                 Least Squares   F-statistic:                     56.05
+Date:                Mon, 25 Nov 2019   Prob (F-statistic):           7.20e-11
+Time:                        20:06:59   Log-Likelihood:                 12.672
+No. Observations:                  84   AIC:                            -21.34
+Df Residuals:                      82   BIC:                            -16.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.2750      0.409      0.673      0.503      -0.538       1.088
+SAT            0.0017      0.000      7.487      0.000       0.001       0.002
+==============================================================================
+Omnibus:                       12.839   Durbin-Watson:                   0.950
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               16.155
+Skew:                          -0.722   Prob(JB):                     0.000310
+Kurtosis:                       4.590   Cond. No.                     3.29e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.29e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+here
+79415
+[1]
+[2, 4]
+2
+hello
+2
